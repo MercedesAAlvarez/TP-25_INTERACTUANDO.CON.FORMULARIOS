@@ -14,6 +14,17 @@ console.log('archivos vinculados exitosamente')
 
 let $ = (e) => document.querySelector(e)
 
+const funcValidate = (obj) => {
+    let arr = Object.values(obj)
+    if(!arr.includes(false)){
+        btn.disabled= false
+        btn.style.backgroundColor = '#198754' 
+    }else{
+        btn.disabled = true
+        btn.style.backgroundColor = '#7b9c8d'
+    }
+}
+
 
 let inputTitulo = $('#title')
 let rating = $('#rating')
@@ -28,6 +39,10 @@ let btn = $('#btn-agregar')
 
 inputTitulo.focus()
 
+inputTitulo.addEventListener('blur',(e) =>{
+
+})
+
 
 const validate = {
     titutlo : false,
@@ -37,4 +52,5 @@ const validate = {
     genre : false
 
 }
+funcValidate(validate)
 }
