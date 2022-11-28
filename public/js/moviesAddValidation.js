@@ -9,7 +9,14 @@ window.onload = function(){
 
 //------DESDE AQUÍ CONTINÚE CON LAS VALIDACIONES DEL FORMULARIO //
 //-------------------DE REGISTRO DE PELÍCULAS------------------//    
+ 
+console.log('archivos vinculados exitosamente')
 
+let $ = (e) => document.querySelector(e)
+
+let inputTitulo = $('#title')
+
+inputTitulo.focus()
 
 
 
