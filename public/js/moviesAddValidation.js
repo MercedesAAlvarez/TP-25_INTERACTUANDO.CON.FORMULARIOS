@@ -7,6 +7,10 @@ window.onload = function(){
     article.classList.add('fondoTransparente');
     formulario.classList.add('fondoCRUD');
 
+//------DESDE AQUÍ CONTINÚE CON LAS VALIDACIONES DEL FORMULARIO //
+//-------------------DE REGISTRO DE PELÍCULAS------------------//    
+
+
 
 
 }
