@@ -51,6 +51,7 @@ window.onload = function () {
             validate.titulo = true
         }
         /* console.log(inputTitulo); */
+        funcValidate(validate)
     })
     rating.addEventListener('blur', (e) => {
         if (!rating.value) {
@@ -62,7 +63,7 @@ window.onload = function () {
             rating.classList.add('is-valid')
             validate.rating = true
         }
-        
+        funcValidate(validate)
     })
     awards.addEventListener('blur', (e) => {
         if (!awards.value) {
@@ -74,7 +75,7 @@ window.onload = function () {
             awards.classList.add('is-valid')
             validate.awards = true
         }
-       
+        funcValidate(validate)
     })
     release.addEventListener('blur', (e) => {
         if (!release.value) {
@@ -86,7 +87,7 @@ window.onload = function () {
             release.classList.add('is-valid')
             validate.release = true
         }
-       
+        funcValidate(validate)
     })
     duracion.addEventListener('blur', (e) => {
         if (!duracion.value) {
@@ -98,7 +99,7 @@ window.onload = function () {
             duracion.classList.add('is-valid')
             validate.duracion = true
         }
-       
+        funcValidate(validate)
     })
     genre.addEventListener('blur', (e) => {
         if (!genre.value) {
@@ -110,7 +111,7 @@ window.onload = function () {
             genre.classList.add('is-valid')
             validate.genre = true
         }
-       
+        funcValidate(validate)
     })
 
 
