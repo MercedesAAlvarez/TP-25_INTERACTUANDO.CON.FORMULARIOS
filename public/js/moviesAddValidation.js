@@ -79,9 +79,9 @@ window.onload = function () {
         } else {
             rating.classList.remove('is-invalid')
             rating.classList.add('is-valid')
-           
             errores.removeChild( $('#ratingError'))
             validate.rating = true
+           
         }
         funcValidate(validate)
     })
